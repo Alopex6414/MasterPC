@@ -1,0 +1,925 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MasterPC_TabControl_Main.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Send.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_CheckBox_ReceiveNewLine.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_Time.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_NumberUpDown_Time.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_CheckBox_TimerSend.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Button_Send.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_TextBox_Send.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Receive.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_ReceiveSpeed.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_TextBox_Receive.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Information.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_Information_Send.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_Information_Receive.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_TextBox_Information_SPBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_Information_SPBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_TextBox_Information_SPNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_Information_SPNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_TextBox_Information.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_Information.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Function.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Function_Button.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Button_SendClear.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Button_ReceiveClear.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Function_Send.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Send_RadioButton_Hex.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Send_RadioButton_String.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Function_Receive.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Receive_RadioButton_Hex.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Receive_RadioButton_String.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_GropBox_Config.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Button_SerialPortRefresh.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Button_SerialPortOpenClose.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_ComboBox_SerialPortCheckBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_ComboBox_SerialPortStopBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_ComboBox_SerialPortDataBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_ComboBox_SerialPortBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_ComboBox_SerialPortNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_SerialPortCheckBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_SerialPortStopBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_SerialPortDataBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_SerialPortBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_SerialPort_Label_SerialPortNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_GropBox_Function.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_GropBox_Camera_Function.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_RadioButton_Camera_Type2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_RadioButton_Camera_Type1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TextBox_Camera_Col.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TextBox_Camera_Row.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_Camera_Col.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_Camera_Type.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_Camera_Row.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_Camera_Type.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_GropBox_CCD_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_CCD2_Min.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_CCD2_Max.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_CCD1_Min.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_CCD1_Max.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_GropBox_CCD_Function.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_CheckBox_CCD_Point.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_CheckBox_CCD_Grid.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_CCD_Bit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_CCD_Bit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_CCD_Number.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_CCD_Number.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Button_CurveClear.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label8_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label7_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label6_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label5_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label4_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label3_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label2_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label1_Value.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_NumberUpDown_CurveNum.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Label_CurveNum.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_CheckBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TabPage_Wave.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_ZedGraph.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TabPage_CCD.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TabPage_CCD_Chart2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TabPage_CCD_Chart1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TabPage_Camera.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Picture_Camera.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_GropBox_Information.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabControl_Curve_Button_Export.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_Information_Receive.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Cruve_TextBox_Information_SPBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_Information_SPBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TextBox_Information_SPNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_Information_SPNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_TextBox_Information.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_Information.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_GropBox_Config.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Button_SerialPortRefresh.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Button_SerialPortOpenClose.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_SerialPortCheckBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_SerialPortStopBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_SerialPortDataBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_SerialPortBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_ComboBox_SerialPortNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_SerialPortCheckBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_SerialPortStopBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_SerialPortDataBit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_SerialPortBaud.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Curve_Label_SerialPortNumber.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Analysis.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_Function.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_SetImage.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_More.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_CheckBox_Center.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_RadioButton_Rectify.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_RadioButton_Original.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_YMaxValue.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Jump.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Col.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Row.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_YMaxValue.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Jump.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Col.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Row.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_SetFunction.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_SaveCurve.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Page.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_NumberUpDown_Jump.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_Jump.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_Downing.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_Uping.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_Down.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_Up.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Button_OpenFile.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_Parameter.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_Variable.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Value_Var1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Var1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_Control.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Cotrl_3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Cotrl_3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Cotrl_2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Cotrl_1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Cotrl_2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Cotrl_1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Direc_D.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Direc_P.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Speed_I.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Speed_P.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Angle_D.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Direc_D.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Direc_P.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Speed_I.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Speed_P.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Angle_D.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Label_Angle_P.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_TextBox_Angle_P.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_Chart.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_Chart_Chart.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_GroupBox_Image.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_PictureBox_Image_Orige.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Data_PictureBox_Image.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Help.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Help_TextBox_Help_CCD.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MasterPC_TabPage_Help_TextBox_Help_CCD.Text" xml:space="preserve">
+    <value>  CCD曲线发送格式:
+  (CCD:1)(格式:0xFF,0x00,...CCD1[i]...,0xAA,0x99)
+
+  signed int SendData_Temp;
+  unsigned char SendData_Temp_High,SendData_Temp_Low;
+  
+  UART_PutChar(UART_UART4,0xFF);
+  UART_PutChar(UART_UART4,0x00);
+  
+  for(int i=0;i&lt;128;i++)
+  {
+    SendData_Temp = (signed int)(*(Array + i));
+    
+    SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+    SendData_Temp_Low = SendData_Temp &amp; 0xff;
+    UART_PutChar(UART_UART4,SendData_Temp_Low);
+    UART_PutChar(UART_UART4,SendData_Temp_High);
+  }
+  
+  UART_PutChar(UART_UART4,0xAA);
+  UART_PutChar(UART_UART4,0x99);
+
+  (CCD:2)(格式:0xFF,0x00,...CCD1[i]...,...CCD2[i]...,0xAA,0x99)
+
+  signed int SendData_Temp;
+  unsigned char SendData_Temp_High,SendData_Temp_Low;
+  
+  UART_PutChar(UART_UART4,0xFF);
+  UART_PutChar(UART_UART4,0x00);
+  
+  for(int i=0;i&lt;128;i++)
+  {
+    SendData_Temp = (signed int)(*(Array + i));
+    
+    SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+    SendData_Temp_Low = SendData_Temp &amp; 0xff;
+    UART_PutChar(UART_UART4,SendData_Temp_Low);
+    UART_PutChar(UART_UART4,SendData_Temp_High);
+  }
+  
+  for(int i=0;i&lt;128;i++)
+  {
+    SendData_Temp = (signed int)(*(Array + i));
+    
+    SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+    SendData_Temp_Low = SendData_Temp &amp; 0xff;
+    UART_PutChar(UART_UART4,SendData_Temp_Low);
+    UART_PutChar(UART_UART4,SendData_Temp_High);
+  }
+  
+  UART_PutChar(UART_UART4,0xAA);
+  UART_PutChar(UART_UART4,0x99);
+</value>
+  </data>
+  <metadata name="MasterPC_TabPage_Help_ComboBox_Do.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Help_TextBox_Help_SerialPort.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MasterPC_TabPage_Help_TextBox_Help_SerialPort.Text" xml:space="preserve">
+    <value>  串口曲线发送格式:  
+  (格式:0xFF,0x00,...曲线i...,0xAA,0x55)
+  (8位发送,先低后高)
+
+  signed int SendData_Temp;
+  unsigned char SendData_Temp_High,SendData_Temp_Low;
+  
+  UART_PutChar(UART_UART4,0xFF);
+  UART_PutChar(UART_UART4,0x00);
+  
+  //曲线1
+  SendData_Temp = (signed int)DAC_Count;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  //曲线2
+  SendData_Temp = (signed int)giAcc_Z;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  //曲线3
+  SendData_Temp = (signed int)giGyro_Z;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  //曲线4
+  SendData_Temp = (signed int)0;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  //曲线5
+  SendData_Temp = (signed int)DAC_Count;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  //曲线6
+  SendData_Temp = (signed int)giAcc_Z;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  //曲线7
+  SendData_Temp = (signed int)giGyro_Z;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  //曲线8
+  SendData_Temp = (signed int)0;
+  SendData_Temp_High = SendData_Temp &gt;&gt; 8;
+  SendData_Temp_Low = SendData_Temp &amp; 0xff;
+  UART_PutChar(UART_UART4,SendData_Temp_Low);
+  UART_PutChar(UART_UART4,SendData_Temp_High);
+  
+  UART_PutChar(UART_UART4,0xAA);
+  UART_PutChar(UART_UART4,0x55);</value>
+  </data>
+  <metadata name="MasterPC_TabPage_Help_ComboBox_Items.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_About.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Help_PictureBox_Github.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MasterPC_TabPage_Help_TextBox_About.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SerialPortNow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="Timer_Timing_Send.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <metadata name="Timer_Timing_ReceiveSpeed.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>320, 17</value>
+  </metadata>
+  <metadata name="SerialPortCurve.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>539, 17</value>
+  </metadata>
+  <metadata name="Timer_Timing_RefreshCurve.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>682, 17</value>
+  </metadata>
+  <metadata name="Timer_Timing_RefreshSerialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 55</value>
+  </metadata>
+  <metadata name="Timer_Timing_ImagePlay.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>255, 55</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAPwnAAD8JwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNQSsATUErAE1BKwBNQSsATUErAE1B
+        KwBNQSsATUErAE1BKwBNQSsATUErAE1BKwBNQSsATUErAE1BKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNQSsATUErAE1BKwBNQSsATUErEE1B
+        KzZNQStfTUErfU1BK4ZNQSuGTUErfk1BK2FNQSs4TUErEU1BKwBNQSsATUErAE1BKwBNQSsAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNQSsATUErAE1BKwBNQSsATUErKE1B
+        K31NQSvITUEr8E1BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/FNQSvLTUErgU1BKytNQSsATUErAE1B
+        KwBNQSsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATUErAE1BKwBNQSsATUErE01B
+        K3tNQSvgTUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr401B
+        K4FNQSsXTUErAE1BKwBNQSsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1BKwBNQSsATUErAE1B
+        Ky9NQSu6TUEr/01BK/9NQSv/TUEr501BK8RNQSv3TUEr/01BK/9NQSv/TUEr/01BK/9NQSv8TUEr701B
+        K/9NQSv/TUEr/01BK8BNQSs1TUErAE1BKwBNQSsAAAAAAAAAAAAAAAAAAAAAAAAAAABNQSsATUErAE1B
+        KwBNQSs7TUEr1U1BK/9NQSv/TUEr6k1BK4xNQSsrTUErMU1BK+tNQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K+lNQStRTUErhE1BK+dNQSv/TUEr/01BK9pNQStCTUErAE1BKwBNQSsAAAAAAAAAAAAAAAAAAAAAAE1B
+        KwBNQSsATUErLk1BK9RNQSv/TUEr/01BK8ZNQSs8TUErA01BKwdNQSsxTUEr6k1BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr4E1BKxxNQSsATUErOU1BK8BNQSv/TUEr/01BK9pNQSs1TUErAE1BKwBNQSsAAAAAAAAA
+        AABNQSsATUErAE1BKxJNQSu4TUEr/01BK/9NQSu1TUErH01BKzlNQSuoTUEry01BK8tNQSv4TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSvZTUErGE1BKwBNQSsATUErG01BK65NQSv/TUEr/01BK8BNQSsXTUErAE1B
+        KwAAAAAAAAAAAE1BKwBNQSsATUErd01BK/9NQSv/TUErxk1BKx1NQSsjTUEr201BK+tNQSvNTUEr5E1B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK8pNQSsOTUErAE1BKwBNQSsATUErG01BK79NQSv/TUEr/01B
+        K4FNQSsATUErAE1BKwBNQSsATUErAE1BKyRNQSvdTUEr/01BK+tNQSs/TUErAE1BK4xNQSvGTUErME1B
+        KwlNQSsnTUErxE1BK/9NQSv/TUEr/01BK/9NQSv9TUErfE1BKwBNQSsATUErAE1BKwBNQSsATUErOE1B
+        K+ZNQSv/TUEr401BKytNQSsATUErAE1BKwBNQSsATUErdk1BK/9NQSv/TUErjk1BKwVNQStsTUErxU1B
+        KzRNQSsFTUErPE1BK3hNQSvHTUEr/k1BK/9NQSv/TUEr/01BK/dNQSutTUErcU1BKzNNQSsETUErAE1B
+        KwBNQSsATUErhE1BK/9NQSv/TUErgU1BKwBNQSsATUErAE1BKw1NQSvCTUEr/01BK+pNQSsxTUErBU1B
+        K0tNQSsmTUErOE1BK7FNQSvyTUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr601B
+        K5VNQSsbTUErAE1BKwBNQSspTUEr5E1BK/9NQSvLTUErEU1BKwBNQSsATUErL01BK+xNQSv/TUErtE1B
+        KwdNQSsATUErAE1BK0tNQSvjTUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK7RNQSsWTUErAE1BKwRNQSupTUEr/01BK/FNQSs4TUErAE1BKwBNQStWTUEr/U1B
+        K/9NQSt8TUErAE1BKwBNQSsmTUEr2E1BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK3pNQSsATUErAE1BK3BNQSv/TUEr/01BK2FNQSsATUErAE1B
+        K3NNQSv/TUEr/U1BK1ZNQSsATUErAE1BK4JNQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEry01BKxFNQSsATUErTE1BK/pNQSv/TUErfk1B
+        KwBNQSsATUErgk1BK/9NQSv4TUErRU1BKwBNQSsOTUErx01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSvqTUErKk1BKwBNQSs8TUEr9E1B
+        K/9NQSuGTUErAE1BKwBNQSuCTUEr/01BK/hNQStGTUErAE1BKyFNQSviTUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/BNQSszTUErAE1B
+        KzxNQSv0TUEr/01BK4ZNQSsATUErAE1BK3JNQSv/TUEr/U1BK1hNQSsATUErHE1BK91NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr4k1B
+        KyJNQSsATUErTU1BK/pNQSv/TUErfU1BKwBNQSsATUErVE1BK/xNQSv/TUErfk1BKwBNQSsETUEroU1B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSurTUErBk1BKwBNQStzTUEr/01BK/9NQStfTUErAE1BKwBNQSstTUEr601BK/9NQSu2TUErCE1B
+        KwBNQSsrTUEr0E1BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr6U1BK0BNQSsATUErBE1BK6xNQSv/TUEr8E1BKzZNQSsATUErAE1BKwtNQSu/TUEr/01B
+        K+xNQSs0TUErAE1BKwBNQStDTUEr8E1BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSt9TUErAE1BKwBNQSssTUEr5k1BK/9NQSvITUErEE1BKwBNQSsATUErAE1B
+        K3JNQSv/TUEr/01BK5RNQSsBTUErAE1BKztNQSvzTUEr/01BK/9NQSv/TUEr/01BK/9NQSv/TUEr/01B
+        K/9NQSv/TUEr/01BK/9NQSv/TUEr/k1BK1lNQSsATUErAE1BK4lNQSv/TUEr/01BK31NQSsATUErAE1B
+        KwBNQSsATUErIU1BK9lNQSv/TUEr7U1BK0VNQSsATUErQk1BK/dNQSv/TUEr/01BK+NNQSvRTUEr6k1B
+        K/RNQSv1TUEr701BK9xNQSvTTUEr/E1BK/9NQSv+TUErV01BKwBNQSs8TUEr6U1BK/9NQSvgTUErKE1B
+        KwBNQSsAAAAAAE1BKwBNQSsATUErcE1BK/1NQSv/TUEry01BKyJNQSsgTUEr2E1BK99NQSuWTUErL01B
+        KxNNQSssTUErO01BKz5NQSszTUErHU1BKxhNQStsTUEryE1BK+pNQStETUErGk1BK8RNQSv/TUEr/01B
+        K3tNQSsATUErAAAAAAAAAAAATUErAE1BKwBNQSsPTUErsU1BK/9NQSv/TUEru01BKydNQSsoTUErH01B
+        KwJNQSsATUErAE1BKwBNQSsATUErAE1BKwBNQSsATUErAE1BKwBNQSsRTUErLU1BKy5NQSuzTUEr/01B
+        K/9NQSu6TUErE01BKwBNQSsAAAAAAAAAAAAAAAAATUErAE1BKwBNQSsoTUErzk1BK/9NQSv/TUEry01B
+        K0JNQSsATUErAE1BKwBNQSsATUErAAAAAAAAAAAATUErAE1BKwBNQSsATUErAE1BKwBNQSs8TUErxE1B
+        K/9NQSv/TUEr1U1BKy9NQSsATUErAAAAAAAAAAAAAAAAAAAAAABNQSsATUErAE1BKwBNQSs0TUErzk1B
+        K/9NQSv/TUEr7U1BK5RNQSs0TUErCE1BKwBNQSsATUErAE1BKwBNQSsATUErAE1BKwdNQSsxTUErjk1B
+        K+tNQSv/TUEr/01BK9RNQSs6TUErAE1BKwBNQSsAAAAAAAAAAAAAAAAAAAAAAAAAAABNQSsATUErAE1B
+        KwBNQSsoTUErsU1BK/1NQSv/TUEr/01BK+xNQSu2TUErfk1BK1hNQStGTUErRU1BK1ZNQSt8TUErs01B
+        K+pNQSv/TUEr/01BK/9NQSu4TUErLk1BKwBNQSsATUErAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABNQSsATUErAE1BKwBNQSsPTUErcE1BK9lNQSv/TUEr/01BK/9NQSv/TUEr/U1BK/hNQSv4TUEr/U1B
+        K/9NQSv/TUEr/01BK/9NQSvdTUErd01BKxJNQSsATUErAE1BKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABNQSsATUErAE1BKwBNQSsATUErIU1BK3JNQSu/TUEr601BK/xNQSv/TUEr/01B
+        K/9NQSv/TUEr/U1BK+xNQSvCTUErdk1BKyRNQSsATUErAE1BKwBNQSsAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATUErAE1BKwBNQSsATUErAE1BKwtNQSstTUErVE1B
+        K3JNQSuCTUErgk1BK3NNQStWTUErL01BKw1NQSsATUErAE1BKwBNQSsAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1BKwBNQSsATUErAE1B
+        KwBNQSsATUErAE1BKwBNQSsATUErAE1BKwBNQSsATUErAE1BKwBNQSsAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/4AA//4AAD/4AAAf8AAAD+AAAAfAAAADwAAAAYAAAAGAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAB
+        gAPAAAAD4AAAB/AAAA/4AAAf/gAAf/+AAf8=
+</value>
+  </data>
+</root>

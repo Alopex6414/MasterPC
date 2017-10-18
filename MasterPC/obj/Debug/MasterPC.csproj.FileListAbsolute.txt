@@ -1,0 +1,12 @@
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\bin\Debug\MasterPC.exe.config
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\bin\Debug\MasterPC.exe
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\bin\Debug\MasterPC.pdb
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\obj\Debug\MasterPC.csprojResolveAssemblyReference.cache
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\obj\Debug\MasterPC.MasterPC_Form_Main.resources
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\obj\Debug\MasterPC.Properties.Resources.resources
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\obj\Debug\MasterPC.csproj.GenerateResource.Cache
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\obj\Debug\MasterPC.exe
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\obj\Debug\MasterPC.pdb
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\bin\Debug\ZedGraph.dll
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\bin\Debug\ZedGraph.Web.dll
+D:\十一届\C#开发\上位机\MasterPC\MasterPC\bin\Debug\ZGraph.dll
